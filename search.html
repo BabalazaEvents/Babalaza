@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!--<link rel="LOGO" href="LOGOLINK">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                Babalaza
+                <div class="navbar__image">
+                    <img src="/images/Logo.png" style="width:5rem;height:5rem;display:flex;align-items:center;margin-top:0.5rem;margin-left:1rem;">
+                </div>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar__menu">
+                <div class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Home
+                    </a>
+                </div>
+                <div class="separating__bar"></div>
+                <div class="navbar__item">
+                    <a href="/post-your-own-event.html" class="navbar__links">
+                        Post Your Own Event
+                    </a>
+                </div>
+                <div class="separating__bar"></div>
+                <div class="navbar__item">
+                    <a href="/search.html" class="navbar__links">
+                        Search
+                    </a>
+                </div>
+                <div class="separating__bar"></div>
+                <div class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Contact us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="search__main">
+        <div class="search__container">
+            <div class="search__content">
+                <h1>Event search</h1>
+                <div class="search__events">
+                <form id="event__search" name="event__search" method="post" action="/action_page.php">
+                    <label for="esearch">Search:</label>
+                    <input type="text" id="esearch" name="esearch">
+                    <select id="ssort" name="ssort">
+                        <option value="sort">Sort</option>
+                        <option value="house">Date</option>
+                        <option value="techno">Alphabetical order</option>
+                      </select>
+                </form>
+                </div>
+                <div class="search__menu">
+                    <H2>Genre Search</H2>
+                        <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        
+                        <a href="/" class="search__links">
+                            House
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/post-your-own-event.html" class="search__links">
+                            Techno
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/search.html" class="search__links">
+                            Dance
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            Pop
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            Rap
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            HipHop & R&B
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            Amapiano
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            AfroHouse
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            Afrobeats
+                        </a>
+                    </div>
+                    <div class="search__separating__bar"></div>
+                    <div class="search__item">
+                        <a href="/" class="search__links">
+                            Rock
+                        </a>
+                    </div>
+                    <div class="search__item"></div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+</body>
+</html>

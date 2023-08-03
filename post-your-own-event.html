@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostYourOwnEvent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!--<link rel="LOGO" href="LOGOLINK">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                Babalaza
+                <div class="navbar__image">
+                    <img src="/images/Logo.png" style="width:5rem;height:5rem;display:flex;align-items:center;margin-top:0.5rem;margin-left:1rem;">
+                </div>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar__menu">
+                <div class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Home
+                    </a>
+                </div>
+                <div class="separating__bar"></div>
+                <div class="navbar__item">
+                    <a href="/post-your-own-event.html" class="navbar__links">
+                        Post Your Own Event
+                    </a>
+                </div>
+                <div class="separating__bar"></div>
+                <div class="navbar__item">
+                    <a href="/search.html" class="navbar__links">
+                        Search
+                    </a>
+                </div>
+                <div class="separating__bar"></div>
+                <div class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Contact us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="post__event__main">
+        <div class="post__event__container">
+            <div class="post__event__content">
+                <h1>Post your own event</h1>
+                <div class="post__events">
+                    <form id="event__post" name="event__post" method="post" action="/action_page.php">
+                        <label for="ename">Event Name:</label>
+                        <input type="text" id="ename" name="ename"><br>
+                        <label for="edate">Date:</label>
+                        <input type="text" id="edate" name="edate"><br>
+                        <label for="elocation">location:</label>
+                        <input type="text" id="elocation" name="elocation"><br>
+                        <label for="egenre">Genre of Music: </label>
+                        <select id="egenredrop" name="egenredrop">
+                            <option value="select">Select an option</option>
+                            <option value="house">House</option>
+                            <option value="techno">Techno</option>
+                            <option value="dance">Dance</option>
+                            <option value="pop">Pop</option>
+                            <option value="rap">Rap</option>
+                            <option value="hip hop & r&b">Hip Hop & R&B</option>
+                            <option value="amapiano">Amapiano</option>
+                            <option value="afrohouse">Afrohouse</option>
+                            <option value="afrobeats">Afrobeats</option>
+                            <option value="rock">Rock</option>
+                          </select>
+                          <br>
+                        <label for="emusician">Musician/DJ Lineup:</label>
+                        <input type="text" id="emusician" name="emusician"><br>
+                        <label for="eother">Ticket/Entry/Drink Specials:</label>
+                        <input type="text" id="eother" name="eother"><br>
+                        <div class="esubmit">
+                            <input type="submit" value="Submit">
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
